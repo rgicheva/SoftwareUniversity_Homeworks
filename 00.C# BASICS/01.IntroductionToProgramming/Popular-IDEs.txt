@@ -1,0 +1,49 @@
+Popular Integrated Development Environments
+
+according to: 
+http://hackaday.com/2010/08/24/top-5-integrated-development-environments/; 
+
+http://en.wikipedia.org/wiki/Integrated_development_environment;
+
+http://programmers.stackexchange.com/questions/5972/what-are-the-most-popular-ides-per-language
+
+
+Visual Studio 
+
+Visual Studio has an advantage when it comes to programming. Microsoft Visual Studio is an integrated development environment
+(IDE) from Microsoft.  It is used to develop console and graphical user interface applications along with Windows Forms or WPF applications, web sites, web applications, web services, and also Windows Store apps. 
+Visual Studio includes a code editor supporting IntelliSense as well as code refactoring. 
+
+Visual Studio supports different programming languages like: C/C++; VB.NET , C#, and F#. Support for other languages such as M#,Python, and Ruby among others is available via language services installed separately. It also supports XML/XSLT, HTML/XHTML, JavaScript and CSS.
+
+Eclipse
+
+In computer programming, Eclipse is an integrated development environment (IDE). It contains a base workspace and an extensible 
+plug-in system for customizing the environment. Besides being fully customizable and extensible, the next best thing about eclipse is it’s free. Written mostly in Java, Eclipse can be used to develop applications.
+
+
+Xcode
+
+Xcode is an integrated development environment (IDE) containing a suite of software development tools developed by Apple 
+for developing software for OS X and iOS. First released in 2003, the latest stable release is version 5.x and is available 
+via the Mac App Store free of charge for Mac OS users. Xcode supports C, C++, Objective-C, Objective-C++, Java, AppleScript, Python, Ruby and Rez source code with a variety of programming models, including but not limited to Cocoa, Carbon, and Java.
+
+NetBeans
+
+NetBeans is an integrated development environment (IDE) for developing primarily with Java, but also with other languages, 
+in particular PHP, C/C++, and HTML5. It is also an application platform framework for Java desktop applications and others.
+The NetBeans IDE is written in Java and can run on Windows, OS X, Linux, Solaris and other platforms supporting a compatible
+ JVM.his program is extensible and free, and it compiles code which is a bonus. 
+ 
+
+SharpDevelop 
+
+SharpDevelop, also styled as #develop is a free and open source integrated development environment (IDE) for the .NET Framework,
+ Mono,Gtk# and Glade# platforms. It supports development in C#, Visual Basic .NET, Boo, F#, IronPython and IronRuby programming
+ languages.It was designed as a free and lightweight alternative to Microsoft Visual Studio, and contains an equivalent feature 
+for almost every essential Visual Studio Express feature, including features for project management, code editing, application compiling and debugging.
+
+
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HTML Lists</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            body {
+                font-family: Calibri;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="border:2px solid gray;
+                    padding: 5px;
+                    width: 300px;    
+                    border-radius: 10px; ">
+            Preceding Text
+            <ol type="I" start="I">
+                <li>List Item 1</li>
+                    <ol type="a" start="a" >
+                        <li>Nested item 1.1</li>
+                        <li>Nested item 1.2</li>
+                    </ol>
+                <li>List Item 2</li>
+                    <ul type="1" start="1">
+                        <li>Nested Item 2.1</li>
+                        <li>Nested Item 2.2</li>
+                        <ol type="circle">
+                            <li>Nested Item 2.2.1</li>
+                            <li>Nested Item 2.2.2</li>
+                            <ul type="square">
+                                <li>Nested Item 2.2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+                            </ul>
+                            <li>Nested Item 2.2.3</li>
+                        </ol>
+                        <li>Nested Item 2.3</li>
+                    </ul>
+                <li>List Item 3</li>
+                    <ul type="disc">
+                        <li>Nested Item 3.1</li>
+                        <li>Nested Item 3.2</li>
+                        <li>Nested Item 3.3</li>
+                    </ul>
+            </ol>
+        </div>
+        
+    </body>
+</html>
