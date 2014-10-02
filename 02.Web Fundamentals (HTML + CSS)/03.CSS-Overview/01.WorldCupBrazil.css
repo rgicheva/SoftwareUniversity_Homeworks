@@ -1,0 +1,183 @@
+
+#wrapper {
+    background-color: #00923e;
+    font-family: Calibri;
+    width: 1133px;
+    height: 400px;
+    padding-top: 15px;
+}
+table {
+    border-radius: 20px;
+    border: 2px solid black;
+    border-spacing: 0;
+    width: 1100px;
+    margin: 0 auto;
+}
+table th:nth-child(1) {
+    border-top-left-radius: 19px;
+}
+table th:nth-child(5) {
+    border-top-right-radius: 19px;
+}
+table tr:last-child td:nth-child(1) {
+    border-bottom-left-radius: 19px;
+}
+table tr:last-child td:nth-child(8) {
+    border-bottom-right-radius: 19px;
+}
+table, th, td {
+    border: 1px solid black;
+    height: 60px;
+}
+th {
+    font-size: 34px;
+    font-weight: 900;
+    background-color: #f8c711;
+}
+td {
+    font-size: 24px;
+}
+tr:nth-child(odd) {
+    background-color: gray;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+.result-left {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    color: red;
+    margin-left:5px;
+    background-color: #DCDCDC;
+}
+.result-right {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    color: red;
+    background-color: #DCDCDC;
+    margin-right:5px;
+}
+ .result-left-green{
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    background-color: white;
+    color: green;
+    margin-left:5px;
+}
+.result-right-green {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    color: green;
+    background-color: white;
+    margin-right:5px;
+}
+td:nth-child(even) {
+    text-align: center;
+}
+
+td:nth-child(8) {
+    text-align: center;
+    width: 60px;
+    padding: 0;
+    margin: 0;
+}
+.red {
+    width: 57px;
+    height: 57px;
+    vertical-align: top;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-image: url(images/red.png);
+    background-position: 3px;
+    background-repeat: no-repeat;
+}
+.green {
+    width: 57px;
+    height: 57px;
+    vertical-align: top;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    background-image: url(images/green.png);
+    border: none;
+    background-position: 3px;
+    background-repeat: no-repeat;
+}
+input:hover {
+    border-radius: 30px;
+    opacity: .5;
+}
+td:nth-child(1) {
+    text-align: right;
+    padding-left: 0px;
+    padding-right: 45px;
+}
+td:nth-child(3) {
+    text-align: left;
+    padding-right: 0;
+    padding-left: 45px;
+}
+td:nth-child(5) {
+    text-align: right;
+    padding-right: 10px;
+}
+td:nth-child(7) {
+    padding-left: 10px;
+}
+ table tr:nth-child(2) td:nth-child(1) {
+    background-image: url(images/brazil.png);
+    background-repeat: no-repeat;
+    background-position: 120px;
+}
+table tr:nth-child(3) td:nth-child(1) {
+    background-image: url(images/spain.png);
+    background-repeat: no-repeat;
+    background-position: 120px;
+}
+table tr:nth-child(4) td:nth-child(1) {
+    background-image: url(images/italy.png);
+    background-repeat: no-repeat;
+    background-position: 120px;
+    
+}
+table tr:nth-child(5) td:nth-child(1) {
+    background-image: url(images/argentina.png);
+    background-repeat: no-repeat;
+    background-position: 120px;
+}
+table tr:nth-child(6) td:nth-child(1) {
+    background-image: url(images/germany.png);
+    background-repeat: no-repeat;
+    background-position: 120px;
+}
+table tr:nth-child(2) td:nth-child(3) {
+    background-image:  url(images/mexico.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+table tr:nth-child(3) td:nth-child(3) {
+    background-image:  url(images/netherlands.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+table tr:nth-child(4) td:nth-child(3) {
+    background-image:  url(images/england.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+table tr:nth-child(5) td:nth-child(3) {
+    background-image:  url(images/bosna.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
+table tr:nth-child(6) td:nth-child(3) {
+    background-image:  url(images/portugal.png);
+    background-repeat: no-repeat;
+    background-position: 10px;
+}
