@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 1, 2014, 12:22:16 AM
+    Author     : peter-lap
+*/
+
+body {
+    margin: 5px;
+    padding: 0;
+}
+h1 {
+    margin: 10px;
+    padding-top:15px;
+    padding-right: 15px;
+    font-family: Animated;
+    font-size: 50px;
+    color: rgb(253, 188,33);
+    text-align: right;
+}
+@font-face {
+    font-family: Animated;
+    src: url(images/Animated.ttf);
+}
+main {
+    width: 900px;
+    height: 600px;
+    background:-webkit-radial-gradient(20% 20%,circle,rgba(255,255,255,1) 5%,rgba(249,247,180,1) 10%,
+                rgba(249,248,183,1) 10%,rgba(255,255,255,1) 15%,rgba(0,123,219,1) 35%);
+    background:-o-radial-gradient(20% 20%,circle,rgba(255,255,255,1) 5%,rgba(249,247,180,1) 10%,
+                rgba(249,248,183,1) 10%,rgba(255,255,255,1) 15%,rgba(0,123,219,1) 35%);
+    background: -moz-radial-gradient(20% 20%,circle,rgba(255,255,255,1) 5%,rgba(249,247,180,1) 10%,
+                rgba(249,248,183,1) 10%,rgba(255,255,255,1) 15%,rgba(0,123,219,1) 35%);
+    background: radial-gradient(20% 20%,circle,rgba(255,255,255,1) 5%,rgba(249,247,180,1) 10%,
+                rgba(249,248,183,1) 10%,rgba(255,255,255,1) 15%,rgba(0,123,219,1) 35%);
+}
+div {
+    width: 900px;
+    height: 600px;
+    background-image:  url(images/TediHula.png),
+                       url(images/PetiaHula.png),
+                       url(images/VladoGHula.png),
+                       url(images/AlexHula.png), 
+                       url(images/NakovHula.png),
+                       url(images/VladoKHula.png),
+                       url(images/HawaiiBackground.png);
+    background-position: 260px 360px, 
+                         180px 190px, 
+                         40px 220px, 
+                         490px 210px, 
+                         410px 160px,
+                         670px 240px,
+                         0px;
+    background-repeat: no-repeat;
+    border: none;
+    
+}

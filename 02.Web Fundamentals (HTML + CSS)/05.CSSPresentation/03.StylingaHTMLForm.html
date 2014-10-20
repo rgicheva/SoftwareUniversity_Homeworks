@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Styling a HTML Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="03.StylingaHTMLForm.css" media="all">
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Step 1: Your details</h1>
+            <div class="form">
+                <label>Name</label>
+                <input name=first-last-aname type="text" placeholder="First and last name" required>
+            </div>
+            <div class="form">
+                <label>Email</label>
+                <input name="email" type="email" placeholder="example@domain.com" required>
+            </div>
+            <div class="form"><label>Phone</label>
+                <input name="telephon" type="tel" placeholder="eg. +447500000000" required>
+            </div>
+                <h1>Step 1: Delivery address</h1>
+            <div id="address-text">
+                <label >Address</label>
+                <textarea name="address" id="address"></textarea>
+            </div> 
+            <div class="form">
+                <label>Post code</label>
+                <input name="postCode" type="text" required>
+            </div>    
+            <div class="form">
+                <label>Country</label>
+                <input name="country" type="text" required>
+            </div>  
+               <h1>Step 1: Card details</h1>
+            <div class="form">
+                <label>Card type</label>
+                <div id="cards">
+                    <input type="radio" name="card" value="visa">
+                    <img src="images/visa.png" alt="visa">
+                    <label>VISA</label>
+                    <input type="radio" name="card" value="amEx">
+                    <img src="images/amex.png" alt="amex">
+                    <label>AmEx</label>
+                    <input type="radio" name="card" value="master">
+                    <img src="images/master.png" alt="master">
+                    <label>Mastercard</label>
+                </div>   
+            </div>   
+            <div class="form">
+                <label>Card number</label>
+                <input name="cardnumber" type="text" required>
+            </div>    
+            <div class="form">
+                <label>Security code</label>
+                <input name="postCode" type="text" required>
+            </div> 
+            <div class="form">
+                <label>Name on card</label>
+                <input name="postCode" type="text" placeholder="exact name as on the card" required>
+            </div> 
+            <div id="button">
+               <input type="submit" value="buy it!">
+            </div>
+         </div>   
+    </body>
+</html>

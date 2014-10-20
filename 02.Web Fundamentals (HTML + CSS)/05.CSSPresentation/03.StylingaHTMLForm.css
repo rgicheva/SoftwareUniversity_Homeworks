@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 6, 2014, 1:45:40 AM
+    Author     : peter-lap
+*/
+#wrapper {
+    width: 500px;
+    height: 880px;
+    background: url(images/formBackground.png);
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Tahoma;
+}
+h1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 30px;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-left: 2px;
+}
+.form { 
+   width: 480px;
+   height: auto;
+   background: rgba(154,190,229,0.8);
+   border: 2px solid rgb(213,226,245);
+   margin-bottom: 5px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 20px;
+   border-radius: 5px;
+   font-size: 16px;
+   display:block;
+}
+label {
+    text-align: left;
+}
+input[type=text], [type=email], [type=tel] {
+    width: 250px;
+    height: 28px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: none;
+    float: right;
+    display: inline-block;
+    margin-right: 90px;
+}
+#address {
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    float: right;
+    margin-right: 90px;
+}
+#address-text {
+   vertical-align: top;
+   width: 480px;
+   height: 80px;
+   background: rgba(154,190,229,0.8);
+   border: 2px solid rgb(213,226,245);
+   margin-bottom: 5px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   border-radius: 5px;
+   font-size: 16px;
+   display:block;
+}
+ input[type=radio] {
+    width: 15px;
+    height: 15px;
+    background: red;
+    margin:0;
+    padding: 0;
+}
+#cards {
+    width:350px;
+    height: auto;
+    margin:0;
+}
+img {
+    margin-left: 0;
+    padding-top:20px;
+    width: 23px;
+}
+.text {
+    margin-left:auto;
+    margin-right: auto;    
+    padding-top:0;
+    width: 250px;
+}
+#button {
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+input[type=submit] {
+    background: rgb(4,21,47);
+    color: white;
+    text-transform: uppercase;
+    border:none;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px 35px;
+}
+input[type=submit]:focus {
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #D8921A;
+    color: #000;
+}
