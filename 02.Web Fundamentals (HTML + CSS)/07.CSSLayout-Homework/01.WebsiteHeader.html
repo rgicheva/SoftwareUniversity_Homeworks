@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Website Header</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="01.WebsiteHeader.css" media="all">
+    </head>
+    <body>
+        <header> 
+            <div id="logo">
+                <a href="https://softuni.bg/" target="_blank"><img src="images/logo.png" alt="Soft Uni"></a>
+            </div>
+            <div id="menus">
+                <div id="up-menus">
+                  <div id="div-left">
+                        <ul id="users">
+                            <li>0</li>
+                            <li id="notification"></li>
+                            <li id="user">user ▾</li>
+                        </ul>
+                    </div>    
+                    <div id="div-right">
+                        <form method="get">
+                            <input type="text" maxlength="100" placeholder="Search..." name="seach" id="search">
+                            <button type="submit" id="searchButton"></button>
+                        </form>
+                    </div>
+                        
+                </div>
+                    <ul id="down-menus">
+                        <li><a href="https://softuni.bg/news" target="_blank">news</a></li>
+                        <li tabindex="0" class="onclick-menu"><a href="#">about the university ▾</a>
+                           <ul class="onclick-menu-content">
+                                <li><a href="https://softuni.bg/about" target="_blank" >About us</a></li>
+                                <li><a href="https://softuni.bg/professions" target="_blank">Professions</a></li>
+                                <li><a href="https://softuni.bg/plans" target="_blank">Plans</a></li>
+                            </ul>
+                        </li>
+                        <li tabindex="0" class="onclick-menu"><a href="#">training courses ▾</a>
+                            <ul class="onclick-menu-content">
+                                <li><a href="https://softuni.bg/trainings/courses/list" target="_blank">Courses</a></li>
+                                <li><a href="https://softuni.bg/trainings/fasttracks" target="_blank">Fast Tracks courses</a></li>
+                                <li><a href="https://softuni.bg/trainings/seminars/list">Seminars</a></li>
+                            </ul>
+                         </li>   
+                         <li><a href="https://softuni.bg/university/companies/partners" target="_blank" >for companies</a></li>
+                        <li><a href="https://softuni.bg/forum" target="_blank" >forum</a></li>
+                        <li><a href="https://softuni.bg/contacts" target="_blank" >contacts</a></li>
+                     </ul>
+                </div>    
+             
+        </header>
+    </body>
+</html>

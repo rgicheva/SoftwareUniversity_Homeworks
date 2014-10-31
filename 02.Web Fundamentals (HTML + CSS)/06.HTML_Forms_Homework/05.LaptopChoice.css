@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 21, 2014, 8:20:34 AM
+    Author     : peter-lap
+*/
+#wrapper {
+    width:1100px;
+    height:700px;
+    font-family: Tahoma;
+}
+.apple {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 38px;
+    color: #2A4056;
+    font-weight: bold;
+}
+#left {
+    width: 725px;
+    height:650px;
+    float:left;
+}
+#right {
+    width: 300px;
+    height:595px;
+    background-color: #F7FCFF;
+    border: 2px solid #96E6FF;
+    float:left;
+    text-align: center;
+}
+.laptop-left {
+    border-radius: 10px;
+    width: 220px;
+    height: 250px;
+    border:2px solid #96E6FF;
+    float: left;
+    margin-right: 10px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.laptop-right {
+    border-radius: 10px;
+    width: 220px;
+    height: 250px;
+    border:2px solid #96E6FF;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.price {
+    width: 100px;
+    height:34px;
+    background-color: #2A4056;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    float: right;
+    margin-right: -2px;
+    border-top-left-radius: 10px;
+}
+input {
+    width: 290px;
+}
+.header-apple {
+    color: #2A4056;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+    height: 30px;
+}
+.info-apple {
+    color: #2A4056;
+    font-size: 18px;
+    margin-left:15px;
+    margin-top: 5px;
+    text-align: left;
+}
+.text-apple {
+    margin-top: 10px;
+
+    height: 70px;
+}
+.middle-text {
+    font-size: 20px;
+    width: 95%;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.left-parameters {
+    float: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.right-parameters {
+    float: right;
+    font-size: 16px;
+    margin-right: 10px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>02.Flight Order</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            label {
+                vertical-align: top;
+                font-style: italic;
+                display: inline;
+            }
+            h2 {
+                font-weight: bold;
+                font-style: italic;
+                font-size: 40px;
+                text-align: center;
+            }
+            select {
+                width: 230px;
+            }
+            #flightorder {
+                background-color: #FFC0CB;
+                font-family: Calibri;
+                width: 500px;
+                height: 320px;;
+            }
+            .left {
+                width: 240px;
+                height: auto;
+                padding-left: 15px;
+                float: left;
+            }
+            .right {
+                width: 240px;
+                height: auto;
+                padding-right: 3px;
+                float: right;
+            }
+            .age {
+                width: 58px;
+                padding-right: 10px;
+            }
+            .left-timeinterval {
+                width: 106px;
+                float:right;
+                margin-right: 11px;
+            }
+            .right-timeinterval {
+                width: 106px;
+                float: left;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="flightorder">
+        <h2>FLIGHT ORDER</h2>
+        
+        <div class="left">
+            <label>From</label>
+            <select name="city"> 
+                <option value="city">enter a city</option>
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Copenhagen">Copenhagen</option>
+                <option value="Rome">Rome</option>
+                <option value="London">London</option>
+                <option value="Sofia">Sofia</option>
+            </select>
+            </div>
+        
+            <div class="right">
+            <label>To</label>
+            <select name="city"> 
+                <option value="city">enter a city</option>
+                <option value="Amsterdam">Amsterdam</option>
+                <option value="Berlin">Berlin</option>
+                <option value="Copenhagen">Copenhagen</option>
+                <option value="Rome">Rome</option>
+                <option value="London">London</option>
+                <option value="Sofia">Sofia</option>
+            </select>
+            </div>
+        
+            <div style="width: 200px;  margin-left: 250px;">
+                <input type="checkbox" name="preferdirects" value="yes" style="margin-left: 7px;" />
+                <label style="vertical-align: top; font-style: italic; font-size: 14px;">Prefer directs</label>   
+            </div>
+        
+            <div class="left">
+                <label>Departure Date</label>
+                <input name="departuredate" type="date" style="width: 220px;" />
+            </div>
+        
+            <div class="right">
+                <label style="padding-right: 50px;">Time Interval</label>
+                <input name="timeinterval" type="time" class="left-timeinterval" />
+                <input name="timeinterval" type="time" class="right-timeinterval" />
+                
+            </div>  
+        
+            <div class="left">
+                <label>Return Date</label>
+                <input name="departuredate" type="date" style="width: 220px;" />
+            </div>
+        
+            <div class="right">
+                <label style="padding-right: 50px;">Time Interval</label>
+                <input name="timeinterval" type="time" class="left-timeinterval" />
+                <input name="timeinterval" type="time" class="right-timeinterval" />
+            </div>
+        
+            <div class="left">
+                <label style="margin-right: 50px;">+12</label> 
+                <label style="margin-right: 46px;">2-12</label> 
+                <label style="margin-right: 48px;">0-2</label>
+                <input class="age" type="number" min="0" max="12+" />
+                <input class="age" type="number" min="2" max="12" />
+                <input class="age" type="number" min="0" max="2" />
+            </div> 
+        
+            <div class="right">
+                <label>Choose class</label>
+                <select>
+                    <option value="Economy">Economy</option>
+                    <option value="Business">Business</option>
+                    <option value="First">First</option>
+                </select>
+                <input type="submit" value="Search" style="width: 230px; height: 25px; font-size: 16px;" />
+            </div>
+         </div>
+      
+    </body>
+</html>

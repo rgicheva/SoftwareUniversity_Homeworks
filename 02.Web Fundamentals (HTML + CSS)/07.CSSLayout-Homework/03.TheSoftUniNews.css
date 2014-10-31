@@ -1,0 +1,94 @@
+body {
+    margin:0;
+    padding: 0;
+}
+#wrapper {
+    background: rgb(238,238,238);
+    color: rgb(35,68,101);
+    font-family: Calibri;
+    display: inline-block;
+    padding-left: 1%;
+    padding-right: 3.9%;
+}
+h2 {
+    margin: 0;
+    padding: 30px 0 30px 40px;
+}
+hr {
+    width: 100%;
+}
+.left {
+    width: 300px;
+    height: 380px;
+    margin: 0 0 40px 40px;
+    padding: 30px 30px 10px 30px;
+    background: white;
+    box-shadow: 0 2px 3px #bfbfbf;
+    float:left;
+}
+h3 {
+    margin:0;
+    padding: 0;
+    text-transform: uppercase;
+}
+p {
+    text-align: right;
+    margin: 0px 0 5px 0;
+}
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+article > a:hover {
+    text-decoration: underline;
+}
+img {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+hr {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border:0;
+    border-top: 1px solid #eee;
+}
+.paging {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 300px;
+    height: 50px;
+}
+.paging li{
+    width: 35px;
+    height: 35px;
+    float: left;
+    border: 0;
+    border-left: 1px solid white;
+    
+    padding: 0;
+    margin:0;
+    background: #4CA0DB;
+    display: inline-block;
+    color: white;
+    
+}
+.button {
+    background: #4CA0DB;
+    width: 35px;
+    padding: 9px 0;
+    text-align: center;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+.default {
+    background: #FF9C00;
+}
+.button:hover {
+    background: #88C3EC;
+}
+.default:hover {
+    background: #3276B1;
+}

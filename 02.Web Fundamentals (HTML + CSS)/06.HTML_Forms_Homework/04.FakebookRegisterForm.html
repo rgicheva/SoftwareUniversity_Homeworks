@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>04.Fakebook Register Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" type="text/css" href="04.FakebookRegisterForm.css" media="all" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="fakebook">
+                <span>fakebook</span> 
+                <label style="font-size: 20px;">&#174;</label>
+                <h1>Registration</h1>
+                <h2>It is safe and it will always be!</h2>
+            </div>
+            <div id="leftform">
+                <form method="post" action="form.php">
+                    <fieldset>
+                        <legend>None-Important Information</legend>
+                        <input type="text" name="firstname" placeholder="First Name" required />
+                        <input type="text" name="lastname" placeholder="Last Name" required />
+                        <input type="email" name="yourmail" placeholder="Your Email" required />
+                        <input type="tel" name="telephone" placeholder="Phone Number" required />
+                        <input type="password" name="password" placeholder="Your password" required />
+                        <input type="text" name="website" placeholder="Website" required>
+                        <label id="birthday">Birthday</label>
+                        <input type="datetime-local" style="width: 280px;" />
+                        <div>
+                            <input type="radio" name="gender" value="female" class="radio"/>
+                            <label style="padding-right: 22px;">Female</label>
+                            <input type="radio" name="gender" value="male" class="radio" />
+                            <label style="padding-right: 22px;">Male</label>
+                            <input type="radio" name="gender" value="other" class="radio" />
+                            <label>Other</label>
+                        </div>   
+                    </fieldset>
+                        <div>
+                            <input type="reset" value="Clear form" id="clear-form"/>
+                        </div>
+                </form>
+            </div>
+            <div id="rightform">
+                <form method="post" action="form.php">
+                    <fieldset>
+                        <legend>Important Information *required</legend>
+                        <select name="country">
+                            <option value="country" selected="select">Country</option>
+                            <option value="1">Bulgaria</option>
+                            <option value="2">Greece</option>
+                            <option value="3">United states</option>
+                            <option value="4">Germany</option>
+                            <option value="5">Spain</option>
+                            <option value="6">Italy</option>
+                        </select>
+                        <input type="text" name="village" placeholder="Village" />
+                        <input type="text" name="district" placeholder="District" />
+                        <input type="text" name="street" placeholder="Street" />
+                        <input type="number" name="nr" placeholder="Nr" class="small-inputs" />
+                        <input type="number" name="floor" placeholder="Floor" class="small-inputs" />
+                        <input type="number" name="apnr" placeholder="Ap Nr" class="small-inputs" />
+                        <label id="doorcolor">Door Color</label>
+                        <input type="color" name="doorColor" value="#FF80C0"/>
+                        <input type="text" name="water" placeholder="Water Meter Nr" />
+                        <select name="size">
+                            <option value="pantis" selected="select">Aunt Panties' Size</option>
+                            <option value="XS">XS</option>
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <label>More Personal Information</label>
+                        <textarea name="info" placeholder="Give Us More Personal Information!!!" id="textarea"></textarea>
+                    </fieldset>   
+                    <div>
+                        <input type="submit" value="Register" id="register"/>
+                    </div>
+                </form>
+            </div>
+        </div>   
+    </body>
+</html>

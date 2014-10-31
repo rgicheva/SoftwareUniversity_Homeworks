@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>02.Kent's Media Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style>
+            main {
+                font-family: Calibri;
+                border-radius: 10px;
+                width: 1025px;
+                height:330px;
+                background-color: pink;
+            }
+            #user-kent {
+                float: left;
+                margin: 0px;
+               
+                padding-left: 5px;
+            }
+            #audio {
+                display: inline-table;
+                width: 200px;
+                float:left;
+                vertical-align: top;
+                
+                margin: 0;
+                padding-left: 5px;
+            }
+            #video {
+                width:440px;
+                display: inline-block;
+                float: left;
+                padding-left: 0px;
+                margin-left: 10px;
+            }
+            h1 {
+                margin: 0;
+                text-align: center;
+            }
+            h3 {
+                margin:0;
+                float: left;
+                padding-left: 5px;
+            }
+            figure {
+                margin: 5px;
+            }
+            img {
+                height: 200px;
+            }
+            meter {
+                width: 95%;
+            }
+        </style>
+    </head>
+    <body>
+       <main>
+           <h1>Profile</h1>
+            <section id="user-kent">
+                <h3>User: Kent</h3>
+                <figure>
+                    <img src="images/kent.png" alt="user-Kent" />
+                    <figcaption>Profile completed: 60%</figcaption>
+                </figure>
+                <meter value="0.6">60%</meter>
+            </section> 
+           
+           <section id="audio">
+               <h3>Uploaded Audio Files</h3>
+               <embed src="http://www.centraloutdoors.com/mp3/chicken/chicken.wav" type="audio/mpeg" />
+               <audio controls>
+                   <source src="http://www.centraloutdoors.com/mp3/chicken/chicks.wav" type="audio/ogg">
+                   Your browser does not support the &lt;audio&gt; tag.
+               </audio>
+               <audio controls>
+                   <source src="http://www.centraloutdoors.com/mp3/ducks/American%20Wigeon.mp3" type="audio/mpeg" />
+                   Your browser does not support the &lt;audio&gt; tag.
+               </audio>
+               <audio controls>
+                   <source src="http://www.centraloutdoors.com/mp3/ducks/Green%20Winged%20Teal.mp3" type="audio/mpeg" />
+                   Your browser does not support the &lt;audio&gt; tag.
+               </audio>
+           </section>
+           
+           <section id="video">
+               <h3>Uploaded Video Files</h3>
+               <video width="440" height="250" controls>
+                   <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg">
+               </video>
+           </section>
+       </main>
+    </body>
+</html>

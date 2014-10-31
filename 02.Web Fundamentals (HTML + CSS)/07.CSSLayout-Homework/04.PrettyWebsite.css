@@ -1,0 +1,188 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: #000;
+    font-family: Arial;
+    font-size: 13px;
+    color: black;
+}
+div#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    position:relative;
+}
+div,header,footer, nav, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+  
+}
+/*header*/
+div#wrapper > header{
+    height:310px;
+    background-color: #fff;
+    
+}
+div#wrapper>header>h2{
+    color: #fff;
+    font-size: 2.20rem;
+    position: absolute;
+    top:180px;
+    right:50px;
+}
+nav {
+    height: 50px;
+    background-color: #fff;
+    border-bottom: 2px solid #DBDBDB;
+}
+nav > ul{
+    height:48px;
+    margin-top:-3px;
+    margin-left:0;
+    padding: 0;
+    border-bottom: 1px solid #fff;
+    background: -webkit-linear-gradient(#F0F0F0,#DBDBDB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F0F0F0,#DBDBDB);/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F0F0F0,#DBDBDB);/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F0F0F0,#DBDBDB); /* Standard syntax (must be last) */
+}
+nav > ul > li{
+    height:48px;
+    list-style: none;
+    display: inline-block;
+    float:left;
+    
+}
+nav > ul > li > a{
+    height: 33px; 
+    display: inline-block;
+    background: -webkit-linear-gradient(#EFEFEF,#DCDCDC); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EFEFEF,#DCDCDC);/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EFEFEF,#DCDCDC);/* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EFEFEF,#DCDCDC); /* Standard syntax (must be last) */
+    border-right: 2px solid #fff;   
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626161;
+    font-size: 1.2rem;
+    padding: 0px 30px;
+    padding-top: 15px;
+}
+nav > ul > li > a:hover{
+    background: #BBBBBB;
+    color:#fff;
+
+}
+/*main setion*/
+div#main{
+    width:65%;
+    margin-left: 31px;
+    margin-bottom: 40px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+section {
+    margin-top: 25px;
+    border: 2px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+section#bottomSection {
+    margin-top: 20px;
+}
+section >h1 {
+    color: #7EBC2A;
+    margin-left: 24px;
+    font-size: 1.80rem;
+}
+
+section >article > p {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+section>article>p>span {
+    font-weight: 600;
+}
+section#bottomSection > article{
+    margin-bottom:15px;
+}
+section#bottomSection > article > img {
+    width: 175px;
+    margin-left: 18px;
+    vertical-align: top;
+}
+section#bottomSection > article > div {
+    width: 59%;
+    display: inline-block;
+    margin-left: 18px;
+    margin-bottom:15px;
+}
+section#bottomSection > article > div> header {
+    font-weight: 600;
+}
+aside{
+    width: 23%;
+    margin-left: 31px;
+    display: inline-block;
+}
+aside> section {
+    padding-bottom: 20px;
+}
+
+aside > section > p {
+    width:85%;
+    margin-left: 15px;
+    
+}
+aside>section> a {
+    margin-left: 15px;
+}
+section > h1 {
+    color: #7EBC2A;  
+}
+aside > section > h1 {
+   text-transform: uppercase;
+   margin-left: 15px;
+}
+aside > section > p > span {
+    font-weight: 600;
+    padding-right: 60px;
+}
+
+aside > section > p > span#author {
+    font-weight: 600;
+    padding-right: 0;
+}
+aside > section > a {
+    color:#7EBC2A;
+}
+section#news {
+    background-color: #EEEEEE;  
+}
+/*footer*/
+footer{
+    float:left;
+    width: 100%;
+    height: 50px;
+    background: -webkit-linear-gradient(#A2D94E, #86C331); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#A2D94E, #86C331);/* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#A2D94E, #86C331); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#A2D94E, #86C331); /* Standard syntax (must be last) */
+    font-size: 14px;
+    padding-top: 30px;
+}
+footer > span {
+    margin-left: 100px;
+}
+footer > span > a {
+    color: #323727;
+}
+footer > span > a:visited {
+    color: #323727;
+}
+

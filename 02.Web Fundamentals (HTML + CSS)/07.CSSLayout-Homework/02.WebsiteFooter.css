@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 13, 2014, 9:35:31 AM
+    Author     : peter-lap
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+    font-size: 18px;
+}
+footer {
+    width: 100%;
+    background: rgb(35,68,101);
+    position: relative;
+    overflow: hidden;
+}
+.colomn-small {
+    width: 225px;
+    position: relative;
+    float: left;
+}
+.colomn-small > a {
+    width: 155px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    border: 2px solid rgb(255,156,0);
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 20px 10px 30px;
+}
+.colomn-small > a:hover {
+    background: rgb(255,156,0);
+}
+h1 {
+    padding: 0;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(255,156,0);
+    font-size:20px;
+}
+.colomn-small ul > li {
+    color: white;
+    list-style-type: none;
+    font-size: 18px;
+}
+.colomn-small ul {
+    padding: 0;
+}
+.colomn-small ul li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.colomn-small ul li > a:hover {
+    color: rgb(255,156,0);
+}
+.colomn-big {
+    width: 310px;
+    position: relative;
+    float: left;
+}
+.colomn-big span {
+    color: white;
+    font-size: 18px;
+}
+.colomn-big ul > li {
+    list-style-type: none;
+    display: inline;
+}
+.colomn-big ul {
+    padding-left:0;
+}
+.fb-like-box {
+    width: 240px;
+    height:210px;
+    background: #E9ECEF;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
